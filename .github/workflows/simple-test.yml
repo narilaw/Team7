@@ -1,0 +1,21 @@
+# .github/workflows/simple-test.yml
+
+name: Simple Test
+
+on:
+  push:
+    branches:
+      - main  # Runs on push to the main branch
+      - develop  # Also runs on push to develop branch
+  pull_request:
+    branches:
+      - main  # Runs when creating a PR targeting the main branch
+      - develop  # Runs when creating a PR targeting the develop
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # Run on the latest Ubuntu environment
+
+    steps:
+      - name: Run simple test
+        run: echo "This is a simple test."  # A basic command to test the workflow
