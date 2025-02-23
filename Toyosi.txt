@@ -1,0 +1,3 @@
+Name: Habibat(Toyosi) Dolapo
+Favorite DevOps Tool: Microsoft Visual Studio Code
+Git Command Learned: git log (shows the commit history for the currently active branch)
