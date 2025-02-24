@@ -1,0 +1,6 @@
+My name:Mercy A
+
+devep tool: vs code
+
+git command: git add .
+ 
